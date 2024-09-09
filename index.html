@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sustancias Quimicas</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1> | CR | </h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)"></a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">PICTOGRAMAS DE SEGURIDAD</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCD7N36pWkthkBEGlzjf2OSQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100036948336323" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/krvzhtn/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>SUSTANCIAS   <span>QUIMICAS</span></h2>
+                <a href="#portfolio">Ir a ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Pictogramas de seguridad</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">
+</span>
+
+<img class="pictograma" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBLoChC0Ulzq-VxDqfOvAFm_6yzjXQh6wsuA&s" alt="">
+                <h4>Inflamabe</h4>
+                <hr>
+               
+                <p>Algo lo cual se puede prender fuego facilmente</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"></span>
+                <img class="pictograma" src="https://ec.europa.eu/taxation_customs/dds2/SAMANCTA/ES/Safety/Graphics/ExclamationMark.gif" alt="">
+                <h4>Peligroso</h4>
+                <hr>
+               
+                <p>Sustanias que pueden ser irritantes, toxicos, sensible para la piel, etc.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"></span>
+                <img class="pictograma" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKwrpomeIniaYHirOWvd9XdhxQzBN90NAxA&s" alt="">
+                <h4>Peligroso para la Salud</h4>
+                <hr>
+                
+                <p>Carcinogeno, mutagenicidad, toxicidad en organos diana, etc.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"></span>
+                <img class="pictograma" src="https://labcollector.com/wp-content/uploads/GHS06_skull.png" alt="">
+                <h4>Toxicidad Aguda </h4>
+                <hr>
+                
+                <p>Sustuancia que puede ser directamente mortal o toxico.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"></span>
+                <img class="pictograma" src="https://www.msds-europe.com/wp-content/uploads/2018/06/GHS05-Pictogramas-de-peligro.jpg" alt="">
+                <h4>Corrosivo</h4>
+                <hr>
+               
+                <p>Sustancia que puede causar daño ocular, quemaduras, entre otros.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"></span>
+                <img class="pictograma" src="https://ec.europa.eu/taxation_customs/dds2/SAMANCTA/ES/Safety/Graphics/Explosives.gif" alt="">
+                <h4>Explosivo</h4>
+                <hr>
+               
+                <p>Algo directamente explosivo y auto reactivo. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+
+    <!-- SECCION PORTAFOLIO -->
+
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p class="nombre-parrafo-final">Cristian <span>Aguirre</span> - 2025</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/channel/UCD7N36pWkthkBEGlzjf2OSQ" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100036948336323" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/krvzhtn/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
